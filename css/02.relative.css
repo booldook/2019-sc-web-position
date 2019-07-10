@@ -1,9 +1,12 @@
 /*
 position: absolute, relative, fixed, static(기본값)
 */
-.wrap {max-width: 800px; margin: auto; background-color: cadetblue;}
+.wrap {width: 800px; height: 500px; margin: auto; background-color: cadetblue; position: relative;}
 .box {width: 200px; height: 200px; color: #fff; text-align: center;
 line-height: 200px;}
-#box1 {background-color: crimson;}
-#box2 {background-color: #0d5396;}
-#box3 {background-color: #28911f;}
+#box1 {background-color: crimson;
+position: absolute; top: 0; left: 0;}
+/* #box2 {background-color: #0d5396;
+position: relative;}
+#box3 {background-color: #28911f;
+position: relative;} */
