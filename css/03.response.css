@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.pics {max-width: 1200px; margin: auto;}
+.pics > .pic {float: left; width: 24%; margin-right: 1.3333%;}
+.pics > .pic:last-child {margin-right: 0;}
+
+@media screen and (max-width: 768px) {
+	.pics > .pic {width: 48%; margin: 1%;}
+}
+
+@media screen and (max-width: 480px) {
+	.pics > .pic {width: 96%; margin: 2%;}
+}
