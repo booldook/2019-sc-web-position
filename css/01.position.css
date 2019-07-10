@@ -1,0 +1,12 @@
+/*
+position: absolute, relative, fixed, static(기본값)
+*/
+.wrap {max-width: 800px; margin: auto; background-color: cadetblue;}
+.box {width: 200px; height: 200px; color: #fff; text-align: center;
+line-height: 200px;}
+#box1 {background-color: crimson; 
+	position: absolute; z-index: 3; left: 100px; top: 100px;}
+#box2 {background-color: #0d5396; 
+	position: absolute; z-index: 4; left: 200px; top: 200px;}
+#box3 {background-color: #28911f; 
+	position: absolute; z-index: 5; left: 300px; top: 300px;}
